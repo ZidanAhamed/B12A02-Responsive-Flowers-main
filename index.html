@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Flower Market</title>
+
 </head>
 
 <body class="bg-[#F5F8FF]">
 
     <nav>
-        <section class="nav-container flex justify-between items-center w-[1140px] mx-auto mt-5">
+        <section class="nav-container flex justify-between items-center sm:w-[75%] lg:w-[75%] w-[1140px] mx-auto mt-5">
             <div><img src="assets/logo.png" alt=""></div>
-            <div class="nav-items flex justify-center items-center gap-7">
-                <a class="font-bold" href="">Home</a>
-                <a class="text-[#8987A1]" href="">Shop</a>
-                <a class="text-[#8987A1]" href="">About us</a>
+            <div class="nav-items lg:flex justify-center items-center md:flex gap-4 xl:gap-7">
+                <a class="font-bold sm:max-md:hidden" href="">Home</a>
+                <a class="text-[#8987A1] sm:max-md:hidden" href="">Shop</a>
+                <a class="text-[#8987A1] sm:max-md:hidden" href="">About us</a>
                 <a class="flex justify-center items-center gap-1.5" href="">
                     <img class="size-6" src="https://img.icons8.com/?size=100&id=9671&format=png&color=000000"
                         alt="">Cart($56)
@@ -25,10 +26,10 @@
         </section>
     </nav>
 
-    <main class="w-[1140px] mx-auto ">
+    <main class="sm:w-[75%] lg:w-[75%] xl:w-[1140px] mx-auto ">
         <!-- Hero section -->
-        <section class="hero-container mt-[100px] grid grid-cols-2 justify-center items-center">
-            <div class="hero-content">
+        <section class="hero-container mt-[100px] sm:grid-cols-1 grid lg:grid-cols-2 justify-center items-center">
+            <div class="hero-content sm:text-center">
                 <h3 class="font-bold text-[65px]">Always Fresh
                     <br> <span class="font-bold text-[#E95A08] text-[65px]">FLOWERS</span>
                 </h3>
@@ -36,7 +37,7 @@
                     quod, sapiente dolorum molestiae numquam, consectetur aliquam eaque assumenda repellendus odit
                     quasi, obcaecati laborum. Numquam aperiam quasi veritatis hic aliquid illum?</p>
             </div>
-            <div class="hero-image">
+            <div class="hero-image ">
                 <img src="assets/hero-flower.png" alt="">
             </div>
         </section>
@@ -49,7 +50,7 @@
                     Suscipit quos fugiat labore rerum veritatis reprehenderit, aperiam eveniet expedita alias velit a
                     est vel voluptate sint.</p>
             </header>
-            <div class="cards grid grid-cols-4 gap-[20px]">
+            <div class="cards sm:grid-cols-2 md:grid-cols-3 grid lg:grid-cols-4 gap-[20px]">
                 <div class="card text-center">
                     <img class="mb-[30px]" src="assets/sample-flower-image.png" alt="">
                     <p class="text-[#111111]">Lilly Blossom</p>
@@ -113,10 +114,11 @@
 
         <!-- Plants lover section -->
         <section class="plants-lover mt-[150px]">
-            <div class="pl-container gap-[100px] grid grid-cols-2 justify-center items-center">
+            <div class="pl-container gap-[100px]  grid sm:grid-cols-1 lg:grid-cols-2 justify-center items-center">
                 <div class="pl-image relative">
-                    <img src="assets/flower-store.png" alt="">
-                    <img class="h-[286px] absolute -top-30 -right-25" src="assets/trusted-badge.png" alt="">
+                    <img class="sm:w-500px md:w-[100%]" src="assets/flower-store.png" alt="">
+                    <img class="sm:max-lg:hidden h-[286px] absolute -top-30 -right-25" src="assets/trusted-badge.png"
+                        alt="">
                 </div>
                 <div class="pl-content text-center">
                     <h2 class="font-bold text-[50px] mb-[50px]">Flower & Plants <br> Lover</h2>
