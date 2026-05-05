@@ -42,3 +42,52 @@ var money = 10000;
 
 
 
+
+
+// connecting array and loop
+// // const friends = ['Taosif', 'Abir', 'Rudro', 'Hasan Joy', 'Mahmudur']
+
+// // for(let i = 0; i<friends.length; i++){
+// //     console.log(i)
+// //     console.log(friends[i]);
+    
+// // }
+
+// const price = [10,12,13,45,67,89,57];
+// for(let j = 0; j<price.length; j++){
+//     console.log(price[j]);
+//     console.log(j);
+        
+// }
+
+// // Reverse 
+// const num = [1,2,3,4,5,6]
+// num.reverse()
+// console.log(num);
+
+
+
+// // Sort any variable
+// const numbers = ['fahim', 'rahim', 'ahim', 'jahim']
+// numbers.sort()
+// console.log(numbers);
+
+
+// // object of ARRAY
+
+// const employees = [
+//     {name: 'Zidan', designation: 'developer', salary: '25000'},
+//     {name: 'Ahamed', designation: 'junior-developer', salary: '28000'},
+//     {name: 'Fahim', designation: 'web-developer', salary: '29000'}
+// ]
+
+// for(const emp of employees){
+//     console.log(emp.name, ": ", emp.salary);
+// }
+
+
+// // Array of ARRAY - 2dimensional array
+// same as objects of ARRAY
+
+
+// copy array elements to another array
